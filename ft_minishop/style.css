@@ -1,0 +1,102 @@
+.header
+{
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+	background-color: #ecf0f1;
+}
+
+.header #logo
+{
+	font-size: 50px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.header #menu
+{
+	width: 200px;
+	position: relative;
+	text-align: center;
+}
+
+.body
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: #ecf0f1;
+}
+
+.center
+{
+	text-align: center;
+}
+
+ul {
+	background-color: #80959C;
+	width: 200px;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+#menu-deroulant {
+	position: relative;
+	bottom: 100px;
+	left: 700px;
+
+}
+#menu-deroulant li {
+	display: inline-block;
+
+}
+#menu-deroulant ul li {
+	display: inherit;
+
+}
+#menu-deroulant a {
+	text-decoration: none;
+	display: block;
+	color:#000;
+
+}
+#menu-deroulant ul {
+	position: absolute;
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+
+}
+#menu-deroulant li:hover ul {
+	left: auto;
+
+}
+
+.pics
+{
+	width: 300px;
+	height: auto;
+}
+
+.art
+{
+	background-color: #ecf0f1;
+	float: left;
+	margin: 20px 0 10px 25px;
+}
+
+.panier
+{
+	width: 700px;
+	margin: auto;
+}
+
+.panpics
+{
+	width: 50px;
+	height: auto;
+}
