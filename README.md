@@ -3,10 +3,10 @@
 Mini site de e-commerce comprenant :
 
 - Un gestionnaire de données
-- Une gestion des utilisateur
+- Une gestion des utilisateurs
 - Un panier
 - Des catégories et des produits associés
-- Une vue priincipale
+- Une vue principale
 - Une section d'administration
 
 Un utilisateur peut s'inscrire, se connecter, changer son mot de pase, ajouter des articles à son pannier, valider sa commande et voir son historique de commande.
